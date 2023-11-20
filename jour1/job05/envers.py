@@ -78,4 +78,4 @@ tri_bulles(abc_ascii)
 # Création d'une variable qui ne garde que la valeur de l'emplacement 0 du tableau de Tuple
 
 abc_trie = ' '.join([t[0] for t in abc_ascii])
-print("Alphabet trié sans les valeurs ASCII :", abc_trie)
+print("Alphabet trié sans les valeurs ASCII :", abc_trie) 
