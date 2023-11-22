@@ -1,6 +1,8 @@
 def reverse(word):
-    for i in range(len(word.replace(" ","")) -1, -1, -2):
-        reversedWord += word.replace(" ","")[i] + " "
-        print(f"Mot à l'envers : {reversedWord}")
+    reversedWord = ""
+    for i in range(len(word) -1, -1, -1):
+        reversedWord += word[i]
+    print(f"Mot à l'envers : {reversedWord}")
 
-reverse("nikana")
+reverse("ressaser")
+reverse("elu par cette crapule")
